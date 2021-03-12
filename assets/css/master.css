@@ -54,6 +54,11 @@
 /* dropdown menu */
 .dropdown-menu{
   display: none;
+  background-color: #ffffff;
+  border: 1px solid #A5A6A7;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding:0 3%;
 }
 
 .active{
@@ -66,7 +71,19 @@
   color: #A5A6A7;
   text-decoration: none;
   font-size: 18px;
-  padding-top: 15px;
-  padding-left: 25px;
-  margin-top: 10px;
+  padding: 15px 10px;
+}
+
+.dropdown-menu a:hover{
+  color: #191C1F;
+}
+
+.dropdown-menu > div{
+  display: flex;
+  padding: 5%;
+  width: 500px;
+}
+
+.col-drop p {
+  color: #A5A6A7;
 }
