@@ -21,8 +21,8 @@
   display: flex;
 }
 
-.nav-left div a,
-.nav-right div a{
+.nav-left > div > a,
+.nav-right > div > a{
   text-decoration: none;
   color: #A5A6A7;
   margin-left: 25px;
@@ -48,4 +48,25 @@
   color: #ffffff;
   border-radius: 10px;
   padding: 12px 20px;
+}
+/* nav right button */
+
+/* dropdown menu */
+.dropdown-menu{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.dropdown-menu  a{
+  display: flex;
+  flex-direction: column;
+  color: #A5A6A7;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 25px;
+  margin-top: 10px;
 }
