@@ -8,4 +8,8 @@ function dropDown() {
   over.mouseenter(function() {
     $(this).next().toggleClass("active");
   });
+
+  $("*").click(function() {
+    $(over).next().removeClass("active");
+  });
 }
